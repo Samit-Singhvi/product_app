@@ -1,0 +1,15 @@
+.product-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.product-card img {
+  border-bottom: 1px solid #ddd; /* Separator between image and content */
+}
+
+.product-card .card-body {
+  text-align: center;
+}

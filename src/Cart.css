@@ -1,0 +1,28 @@
+.card {
+  max-width: 300px; /* Limit the width of the card to fit its content */
+  margin-top: 20px; /* Add space between the card and the other components */
+  padding: 10px; /* Padding for the card to prevent content from touching the edges */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow to the card */
+  border-radius: 8px; /* Rounded corners for the card */
+  background-color: #fff; /* White background for the card */
+  height: fit-content;
+  margin-left: 50px;
+  align-items: ce;
+}
+
+.card-header {
+  font-size: 18px; /* Increase the font size of the header */
+  font-weight: bold; /* Bold text for the header */
+  color: #333; /* Dark color for the header text */
+  padding-bottom: 10px; /* Add some space between header and body */
+}
+
+.card-body {
+  padding: 10px 0; /* Padding for the body, top and bottom */
+}
+
+.card-text {
+  font-size: 16px; /* Font size for the text inside the card */
+  margin: 5px 0; /* Space between each line of text */
+  color: #555; /* Slightly lighter color for text */
+}

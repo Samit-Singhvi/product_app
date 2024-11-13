@@ -1,0 +1,21 @@
+.new-product-container .form-group {
+  margin-bottom: 1rem; /* Example style */
+}
+
+.new-product-container .go-back-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem; /* Adjusted padding for a smaller button */
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c757d; /* Bootstrap secondary color */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s; /* Added transform for hover effect */
+  display: inline-block; /* Make it inline-block for better size control */
+}
+
+.new-product-container .go-back-button:hover {
+  background-color: #5a6268; /* Darker shade for hover effect */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
